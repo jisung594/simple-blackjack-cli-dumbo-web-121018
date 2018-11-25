@@ -28,7 +28,7 @@ def initial_round
     sum += deal_card
   end
   
-  puts sum
+  return sum
 end
 
 def hit?(num)
