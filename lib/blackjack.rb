@@ -40,12 +40,12 @@ def hit?(num)
   if answer == "h"
     deal_card
   elsif answer == "s"
-    display_card_total
+    display_card_total(num)
   else
     invalid_command
   end
   
-  display_card_total
+  display_card_total(num)
 end
 
 def invalid_command
